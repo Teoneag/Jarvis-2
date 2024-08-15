@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 
 import 'package:syncfusion_flutter_datepicker/datepicker.dart';
 
-import '../firestore/firestore_methods.dart';
+import '../methods/firestore_methods.dart';
 import '../methods/tags_methods.dart';
 import '../methods/time_methods.dart';
 import '../models/task_model.dart';

@@ -73,6 +73,17 @@ Remind me of bdays + exams some time before
 - sort tasks by date
 
 ## Sync
+- Log
+  - id: dateTime + deviceId (document name)
+  - action: add, modify, delete
+  - taskId
+
+- Lists of log ids to sync
+  - Server
+  - For every device
+- General sync
+
+
 - When
   - opening ToDo
   - adding a new task (when you close the dialog)
@@ -81,7 +92,9 @@ Remind me of bdays + exams some time before
   - refreshing tasks
 - What
   - list of tasks
-  - 
+    - a task: data + subTasks + parentTask
+    - ideea: not worh it (archived tasks) have a map with all the tasks
+      - everything uses only the id
 
 start DateTime, reccurance, planned duration, actual duration 
 - firestore storage

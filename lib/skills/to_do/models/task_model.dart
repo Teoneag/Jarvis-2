@@ -3,7 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:syncfusion_flutter_datepicker/datepicker.dart';
 
-import '../firestore/firestore_methods.dart';
+import '../methods/firestore_methods.dart';
 import '/skills/to_do/enums/priority_enum.dart';
 import 'time_model.dart';
 import 'time_period_model.dart';

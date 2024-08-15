@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../dialogs/edit_task_dialog.dart';
-import '../firestore/firestore_methods.dart';
+import '../methods/firestore_methods.dart';
 import '../models/task_model.dart';
 import 'task_list_tile.dart';
 

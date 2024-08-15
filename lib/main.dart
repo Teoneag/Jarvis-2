@@ -2,16 +2,21 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'package:firebase_core/firebase_core.dart';
+import 'package:hive_local_storage/hive_local_storage.dart';
 
 import 'firebase_options.dart';
+import 'global/device_id.dart';
 import 'global/global_variables.dart';
 import 'home_page.dart';
 import 'skills/notes/notes_page.dart';
+import 'skills/to_do/methods/sync_methods.dart';
 import 'skills/to_do/to_do_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  // TODO find a way to make the app load faster, maybe not use this await here
+  Hive.initFlutter();
+  await Hive.openBox(DeviceFields.deviceInformation);
+  await Hive.openBox(SyncFields.sync);
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );

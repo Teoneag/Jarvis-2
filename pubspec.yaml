@@ -40,6 +40,8 @@ dependencies:
   intl: ^0.19.0
   syncfusion_flutter_datepicker: ^25.1.35
   http: ^1.2.1
+  hive_local_storage: ^1.1.1
+  uuid: ^4.3.3
 
 dev_dependencies:
   flutter_test:

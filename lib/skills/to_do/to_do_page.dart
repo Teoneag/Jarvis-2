@@ -4,7 +4,8 @@ import 'package:flutter/services.dart';
 import '../../global/global_variables.dart';
 import '../../global/page_abstract.dart';
 import './models/task_model.dart';
-import './firestore/firestore_methods.dart';
+import 'methods/firestore_methods.dart';
+import 'methods/sync_methods.dart';
 import 'widgets/task_list.dart';
 
 class ToDoPage extends BasePage {
@@ -72,7 +73,8 @@ class _ToDoPageState extends State<ToDoPage> {
 
   @override
   void initState() {
-    _syncTasks();
+    Sync.loadStorage();
+    Sync.syncWithoutGetTasks();
     super.initState();
   }
 

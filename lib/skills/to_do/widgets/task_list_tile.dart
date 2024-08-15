@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:jarvis_2/skills/to_do/enums/priority_enum.dart';
-import '../firestore/firestore_methods.dart';
+import '../methods/firestore_methods.dart';
 import '../methods/time_methods.dart';
 import '../models/task_model.dart';
 

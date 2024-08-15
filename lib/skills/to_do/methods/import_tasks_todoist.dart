@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:jarvis_2/skills/to_do/firestore/firestore_methods.dart';
+import 'package:jarvis_2/skills/to_do/methods/firestore_methods.dart';
 import 'package:jarvis_2/skills/to_do/methods/time_methods.dart';
 
 import '../enums/priority_enum.dart';

@@ -1,8 +1,0 @@
-{"protocolVersion":"0.1.1","runnerVersion":null,"pid":19756,"type":"start","time":0}
-{"suite":{"id":0,"platform":"vm","path":"D:/working/Jarvis/jarvis_2/test/time_utils_test.dart"},"type":"suite","time":0}
-{"test":{"id":1,"name":"loading D:/working/Jarvis/jarvis_2/test/time_utils_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":1}
-{"count":1,"time":7,"type":"allSuites"}
-
-[{"event":"test.startedProcess","params":{"vmServiceUri":null,"observatoryUri":null}}]
-{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":1722}
-{"success":true,"type":"done","time":1748}
